@@ -102,7 +102,7 @@ print('The most rush end time hour is:',data_f['End Time'].dt.hour.mode()[0],'\n
 
 # Appeare the filtered data.
 print(data_f)
-
+print("\n\n\nThanks for using the data")
 # References:
 # AttributeError: 'DatetimeProperties' object has no attribute 'weekday_name': https://stackoverflow.com/questions/60214194/error-in-reading-stock-data-datetimeproperties-object-has-no-attribute-week
 # Case insensitive user input strings: https://stackoverflow.com/questions/56708668/case-insensitive-user-input-strings#:~:text=Python%20doesn%27t%20do%20case%20insensitivity%2C%20but%20you%20can,the%20correct%20answer%20and%20userGuess%20to%20compare%20them
